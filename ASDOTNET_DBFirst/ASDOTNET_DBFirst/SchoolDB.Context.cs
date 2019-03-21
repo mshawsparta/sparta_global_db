@@ -32,5 +32,7 @@ namespace ASDOTNET_DBFirst
         public virtual DbSet<Subject> Subjects { get; set; }
         public virtual DbSet<Table> Tables { get; set; }
         public virtual DbSet<Laptop> Laptops { get; set; }
+
+        public System.Data.Entity.DbSet<ASDOTNET_DBFirst.Models.Register> Registers { get; set; }
     }
 }

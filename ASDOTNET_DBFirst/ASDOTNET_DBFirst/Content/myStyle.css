@@ -1,0 +1,27 @@
+﻿body {
+    background-color: black;
+    text-decoration-color: maroon;
+    color:black;
+}
+
+input[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-decoration-color: orangered;
+}
+
+a:hover {
+    color: forestgreen;
+    outline: 0;
+}
+
+.navbar {
+    color: aqua;
+}
+
+html {
+    background-color: black;
+    text-decoration-color: maroon;
+}
